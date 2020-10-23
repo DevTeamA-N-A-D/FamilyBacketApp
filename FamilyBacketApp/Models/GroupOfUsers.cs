@@ -8,7 +8,8 @@ namespace FamilyBacketApp.Models
 {
     class GroupOfUsers
     {
-        public ICollection<User> users;
+        ICollection<User> users;
+        ItemList groupLisOfItemToBuy;
         public GroupOfUsers() {
             users = new List<User>();
         }
